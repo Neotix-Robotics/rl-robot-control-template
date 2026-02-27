@@ -11,6 +11,21 @@ This assessment evaluates your ability to apply **reinforcement learning** to **
 **Time limit:** 10 days from receipt
 **Compute requirements:** Designed to run on **CPU or free GPU resources** — Google Colab or Kaggle. Each training run takes ~1-3 hours on CPU. No paid compute is required.
 
+<table>
+<tr>
+<td align="center"><b>Without HER (random baseline)</b></td>
+<td align="center"><b>With SAC + HER (trained policy)</b></td>
+</tr>
+<tr>
+<td align="center"><img src="assets/fetch_push_random.gif" width="300" alt="Random baseline — robot fails to push object to target"/></td>
+<td align="center"><img src="assets/fetch_push_success.gif" width="300" alt="Trained SAC+HER policy — robot successfully pushes object to target"/></td>
+</tr>
+<tr>
+<td align="center">~5% success rate</td>
+<td align="center">~99% success rate</td>
+</tr>
+</table>
+
 ---
 
 ## Background
